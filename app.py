@@ -3,7 +3,7 @@ import google.generativeai as genai
 import random
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyCg5KeY2PlaeNHdSpCCBcX6wUgd13vKmW8")
+genai.configure(api_key="your-api-key")
 
 def generate_test(level):
     """Generate a new test with unique questions each time."""
